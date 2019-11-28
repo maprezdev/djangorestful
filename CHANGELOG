@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.0.4] - 2019-11-28
+
+### Added
+
+- Add toys/urls.py file where we define the urlpatterns list makes it possible to route URLs to views.
+
+### Changed
+
+- Update urls.py file. This file defines the root URL configurations and therefore we must include the URL patterns declared in the previously coded toys/urls.py file
+- Minor changes in models.py, and views.py file related with PEP8.
+
 ## [0.0.3] - 2019-11-11
 
 ### Added
