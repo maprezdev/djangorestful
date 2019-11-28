@@ -3,7 +3,8 @@ from django.db import models
 
 # Create your models here.
 class Toy(models.Model):
-    # Withing the Toy class we define the attributes what represents a database column or field.
+    # Withing the Toy class we define the attributes what represents a
+    # database column or field.
     created = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=150, blank=False, default='')
     description = models.CharField(max_length=250, blank=True, default='')
