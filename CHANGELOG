@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.0.5] - 2019-12-23
+
+### Changed
+
+- Update serializers.py file to remove duplicate code.
+- Update views.py file to provide support for the OPTIONS verb in our RESTful Web Service
+
 ## [0.0.4] - 2019-11-28
 
 ### Added
